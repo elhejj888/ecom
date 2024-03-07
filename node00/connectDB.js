@@ -4,7 +4,7 @@ const { MongoClient, ObjectId } = require('mongodb');
 
 let client;
 async function connectToDatabase(){
-    const uri = 'mongodb+srv://elhejjiouiyoussef:Ysf6969@cluster0.3n3q0pr.mongodb.net/EcomStore';
+    const uri = 'mongodb+srv://elhejjiouiyoussef:@cluster0.3n3q0pr.mongodb.net/EcomStore';
     client = new MongoClient(uri);
   
     try {
